@@ -162,6 +162,7 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\HowToController.cs" />
+    <Compile Include="Controllers\LightbulbsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -209,6 +210,11 @@
     <Content Include="Views\HowTo\PawnChess.cshtml" />
     <Content Include="Views\HowTo\Lightbulb.cshtml" />
     <Content Include="Views\HowTo\Freestyle.cshtml" />
+    <Content Include="Views\Lightbulbs\Create.cshtml" />
+    <Content Include="Views\Lightbulbs\Delete.cshtml" />
+    <Content Include="Views\Lightbulbs\Details.cshtml" />
+    <Content Include="Views\Lightbulbs\Edit.cshtml" />
+    <Content Include="Views\Lightbulbs\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

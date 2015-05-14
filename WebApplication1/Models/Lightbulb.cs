@@ -16,6 +16,6 @@ namespace WebApplication1.Models
 
     public class HowTo : DbContext
     {
-        public DbSet<HowTo> ALightBulb { get; set; }
+        public DbSet<Lightbulb> ALightBulb { get; set; }
     }
 }
