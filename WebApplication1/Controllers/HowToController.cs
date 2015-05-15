@@ -27,6 +27,7 @@ namespace WebApplication1.Controllers
         }
         public ActionResult Freestyle()
         {
+
             return View();
         }
         public ActionResult Lightbulb()

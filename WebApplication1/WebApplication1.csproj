@@ -164,10 +164,28 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\HowToController.cs" />
+    <Compile Include="Controllers\HowToDataController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\HowToData.cs" />
+    <Compile Include="HowTo.cs">
+      <DependentUpon>HowToDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HowToDataModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HowToDataModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HowToDataModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HowToDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HowToDataModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HowToDataModel.edmx</DependentUpon>
+    </Compile>
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -180,6 +198,23 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <EntityDeploy Include="HowToDataModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>HowToDataModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="HowToDataModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>HowToDataModel.edmx</DependentUpon>
+      <LastGenOutput>HowToDataModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="HowToDataModel.edmx.diagram">
+      <DependentUpon>HowToDataModel.edmx</DependentUpon>
+    </Content>
+    <Content Include="HowToDataModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>HowToDataModel.edmx</DependentUpon>
+      <LastGenOutput>HowToDataModel.cs</LastGenOutput>
+    </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -216,6 +251,7 @@
     <Folder Include="App_Data\" />
     <Folder Include="Data\" />
     <Folder Include="Views\Data\" />
+    <Folder Include="Views\HowToData\" />
     <Folder Include="Views\Welcome\" />
   </ItemGroup>
   <ItemGroup>

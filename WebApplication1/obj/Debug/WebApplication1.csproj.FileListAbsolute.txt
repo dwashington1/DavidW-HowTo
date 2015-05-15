@@ -52,3 +52,4 @@ C:\MVC\WebApplication1\WebApplication1\bin\Microsoft.Owin.Security.Twitter.xml
 C:\MVC\WebApplication1\WebApplication1\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\MVC\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
 C:\MVC\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\MVC\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
