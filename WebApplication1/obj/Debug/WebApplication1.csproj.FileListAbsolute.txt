@@ -1,3 +1,4 @@
+C:\MVC\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
 C:\MVC\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
 C:\MVC\WebApplication1\WebApplication1\bin\WebApplication1.dll
 C:\MVC\WebApplication1\WebApplication1\bin\WebApplication1.pdb
@@ -27,6 +28,8 @@ C:\MVC\WebApplication1\WebApplication1\bin\System.Web.WebPages.Deployment.dll
 C:\MVC\WebApplication1\WebApplication1\bin\System.Web.WebPages.dll
 C:\MVC\WebApplication1\WebApplication1\bin\System.Web.WebPages.Razor.dll
 C:\MVC\WebApplication1\WebApplication1\bin\WebGrease.dll
+C:\MVC\WebApplication1\WebApplication1\bin\EntityFramework.xml
+C:\MVC\WebApplication1\WebApplication1\bin\EntityFramework.SqlServer.xml
 C:\MVC\WebApplication1\WebApplication1\bin\System.Web.Helpers.xml
 C:\MVC\WebApplication1\WebApplication1\bin\System.Web.Mvc.xml
 C:\MVC\WebApplication1\WebApplication1\bin\System.Web.Optimization.xml
@@ -36,8 +39,6 @@ C:\MVC\WebApplication1\WebApplication1\bin\System.Web.WebPages.Deployment.xml
 C:\MVC\WebApplication1\WebApplication1\bin\System.Web.WebPages.Razor.xml
 C:\MVC\WebApplication1\WebApplication1\bin\Antlr3.Runtime.pdb
 C:\MVC\WebApplication1\WebApplication1\bin\Newtonsoft.Json.xml
-C:\MVC\WebApplication1\WebApplication1\bin\EntityFramework.xml
-C:\MVC\WebApplication1\WebApplication1\bin\EntityFramework.SqlServer.xml
 C:\MVC\WebApplication1\WebApplication1\bin\Microsoft.AspNet.Identity.Core.xml
 C:\MVC\WebApplication1\WebApplication1\bin\Microsoft.AspNet.Identity.Owin.xml
 C:\MVC\WebApplication1\WebApplication1\bin\Microsoft.AspNet.Identity.EntityFramework.xml
@@ -52,4 +53,3 @@ C:\MVC\WebApplication1\WebApplication1\bin\Microsoft.Owin.Security.Twitter.xml
 C:\MVC\WebApplication1\WebApplication1\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\MVC\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
 C:\MVC\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
-C:\MVC\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache

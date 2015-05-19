@@ -4,6 +4,12 @@
 @*Title of the home page.*@
 <h1>Welcome to My How To Page</h1>
 <h1>      </h1>
+<ul>
+    @foreach (var title in Model)
+    {
+        <li>title.TableName</li>
+    }
+</ul>
 
 
 <div class="jumbotron">

@@ -11,27 +11,32 @@ namespace WebApplication1.Controllers
         // GET: HowTo
         public ActionResult Index()
         {
-            return View();
+            var HT = new How_ToEntities();
+            return View(HT.HowTos.ToList());
         }
         public ActionResult MakePizza()
         {
+            var HT = new How_ToEntities();
             return View();
         }
         public ActionResult TricepPushup()
         {
+            var HT = new How_ToEntities();
             return View();
         }
         public ActionResult PawnChess()
         {
+            var HT = new How_ToEntities();
             return View();
         }
         public ActionResult Freestyle()
         {
-
+            var HT = new How_ToEntities();
             return View();
         }
         public ActionResult Lightbulb()
         {
+            var HT = new How_ToEntities();
             return View();
         }
     }

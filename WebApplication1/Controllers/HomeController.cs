@@ -10,7 +10,8 @@ namespace WebApplication1.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            var HT = new How_ToEntities();
+            return View(HT.HowTos.ToList());
         }
 
         public ActionResult Contact()
